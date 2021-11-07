@@ -111,5 +111,12 @@ body{
 }
 
 /*Media Queries*/
-@media{ min-width: 375px;
-max-width:1440px; }
+@media( min-width: 700px)
+{
+    .card_PaymentButton {
+    
+        padding: 0.3rem 3rem;
+        font-size: 0.7rem;
+    }
+}
+
