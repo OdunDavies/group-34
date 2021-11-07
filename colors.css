@@ -73,9 +73,11 @@ body{
     margin-top: 8px;
     color:  hsl(245, 75%, 52%);
     font-weight: 700;
+    cursor:pointer;
 }
 .change:hover{
-    color: #766bea; 
+    color: #766bea;
+    text-decoration:none;
 }
 .card_planSelection img{
  width: 45px;
@@ -92,6 +94,7 @@ body{
     outline: none;
     border-radius: 8px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 .card_paymentButton:hover{
     background-color: #766bea;
@@ -103,5 +106,6 @@ body{
     text-decoration: none;
     color: grey;
     font-weight: 700;
+    cursor: pointer;
    
 }
