@@ -21,6 +21,11 @@ body{
     url('./images/2nd-pattern.png') no-repeat;
     background-color: hsl(225, 100%, 94%);
 }
+
+p {
+    padding: 0.5rem 0;
+    color: #808080;
+}
 .card{
     font-family: 'Red Hat Display', sans-serif;
     position: absolute;
@@ -49,7 +54,7 @@ body{
     margin-bottom: 15px;
     font-weight: 900;
     font-size: 25px;
-    color: rgb(44, 47, 56);
+    color: #808080;
 }
 .card_planSelection{
     display: flex;
@@ -67,7 +72,7 @@ body{
    flex: 1;
 }
 .planContent .planCost{
-    color: gray;
+    color: #808080;
 }
 .change{
     margin-top: 8px;
