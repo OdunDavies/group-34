@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 20px; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} */
+body{
+    width: 80%;
+    height: 100px;
+    background: url('./images/first-pattern.png') no-repeat 3% 5%,
+    url('./images/2nd-pattern.png') no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+.card{
+    font-family: 'Red Hat Display', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid black 2px;
+    width: 370px;
+    height: 600px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    
+}
+.card-img{
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 30px;
+}
+.card_title{
+    margin-top: 25px;
+    text-align: center;
+    color: grey;
+}
+.card_title h2{
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(44, 47, 56);
+}
+.card_planSelection{
+    display: flex;
+    background: hsl(225, 100%, 98%);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    padding: 25px;
+    width: 80%;
+    margin-left: 28px;
+    border-radius: 15px;
+}
+.planContent{
+    margin-left: 15px;
+   flex: 1;
+}
+.planContent .planCost{
+    color: gray;
+}
+.change{
+    margin-top: 8px;
+    color:  hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+.change:hover{
+    color: #766bea; 
+}
+.card_planSelection img{
+ width: 45px;
+}
+.card_paymentButton{
+    padding: 15px;
+    width: 80%;
+    margin-left: 30px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.card_paymentButton:hover{
+    background-color: #766bea;
+    cursor: pointer;
+}
+.card_cancel{
+    width: 80%;
+    margin-left: 130px;
+    text-decoration: none;
+    color: grey;
+    font-weight: 700;
+   
+}
