@@ -106,7 +106,9 @@ p {
     color: grey;
     font-weight: 700;
     cursor: pointer;
-   
+}
+.card_cancel:hover{
+    color:hsl(223, 47%, 23%);
 }
 
 /*Media Queries*/
@@ -121,7 +123,7 @@ p {
 @media only screen and (max-width: 768px) {
     .whole {
         padding: 1rem;
-        position: static;
+        position: fixed;
     }
 @media only screen and (max-width: 768px) {
     body {
