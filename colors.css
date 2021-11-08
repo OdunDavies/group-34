@@ -102,7 +102,6 @@ p {
 .card_cancel{
     width: 80%;
     margin-left: 130px;
-    text-decoration: none;
     color: grey;
     font-weight: 700;
     cursor: pointer;
@@ -115,7 +114,6 @@ p {
 @media( min-width: 700px)
 {
     .card_PaymentButton {
-    
         padding: 0.3rem 3rem;
         font-size: 0.7rem;
     }
@@ -123,7 +121,6 @@ p {
 @media only screen and (max-width: 768px) {
     .whole {
         padding: 1rem;
-        position: fixed;
     }
 @media only screen and (max-width: 768px) {
     body {
