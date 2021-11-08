@@ -109,6 +109,7 @@ p {
 }
 .card_cancel:hover{
     color:hsl(223, 47%, 23%);
+}
 
 /*Media Queries*/
 @media( min-width: 700px)
