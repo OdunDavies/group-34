@@ -105,6 +105,7 @@ p {
     color: grey;
     font-weight: 700;
     cursor: pointer;
+    text-decoration: none;
 }
 .card_cancel:hover{
     color:hsl(223, 47%, 23%);
