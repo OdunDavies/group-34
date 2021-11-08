@@ -7,9 +7,11 @@
 body{
     width: 80%;
     height: 100px;
-    background: url('./images/first-pattern.png') no-repeat 3% 5%,
-    url('./images/2nd-pattern.png') no-repeat;
+    background-image: url("./images/pattern-background-desktop.svg");
     background-color: hsl(225, 100%, 94%);
+    background-repeat: repeat-x;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 p {
@@ -119,4 +121,10 @@ p {
 @media only screen and (max-width: 768px) {
     .whole {
         padding: 1rem;
+        position: static;
     }
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url("./images/pattern-background-mobile.svg");
+    }
+}
