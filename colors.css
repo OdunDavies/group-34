@@ -23,8 +23,10 @@ body{
 }
 
 p {
-    padding: 0.5rem 0;
+    padding: 0.5rem 2.4rem;
     color: #808080;
+    line-height: 25px;
+    font-size: 13px;
 }
 .card{
     font-family: 'Red Hat Display', sans-serif;
