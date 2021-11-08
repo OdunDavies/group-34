@@ -11,14 +11,14 @@ body{
     background-color: hsl(225, 100%, 94%);
     background-repeat: repeat-x;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 550;
 }
 
 p {
     padding: 0.5rem 2.4rem;
     color: #808080;
-    line-height: 25px;
-    font-size: 13px;
+    line-height: 28px;
+    font-size: 12px;
 }
 .card{
     font-family: 'Red Hat Display', sans-serif;
@@ -40,14 +40,14 @@ p {
     border-top-right-radius: 30px;
 }
 .card_title{
-    margin-top: 25px;
+    margin-top: 28px;
     text-align: center;
     color: grey;
 }
 .card_title h2{
     margin-bottom: 15px;
     font-weight: 900;
-    font-size: 25px;
+    font-size: 27px;
     color: #808080;
 }
 .card_planSelection{
